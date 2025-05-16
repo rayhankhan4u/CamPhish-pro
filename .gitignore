@@ -1,0 +1,18 @@
+# টেম্পোরারি ফাইলস
+*.log
+*.tmp
+*.zip
+
+# ক্যাপচার এবং লগ ফোল্ডার
+captures/*
+!captures/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# টানেলিং টুলস
+ngrok
+cloudflared
+
+# সিস্টেম ফাইলস
+.DS_Store
+Thumbs.db
