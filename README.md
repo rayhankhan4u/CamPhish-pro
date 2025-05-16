@@ -40,12 +40,13 @@ Run the script:
 -Share the generated link with target
 -Wait for camera capture
 
-Available Templates
+##Available Templates
 YouTube Live Stream
 Online Meeting
 Festival Wishes
 
 ##Disclaimer
+
 This tool is for educational purposes only. The developer is not responsible for any misuse or damage caused by this program.
 Author
 Rayhan Khan
