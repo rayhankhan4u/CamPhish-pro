@@ -1,56 +1,102 @@
-# CamPhish Ultimate
+# CamPhish pro
 
-An advanced phishing tool with camera capture capabilities.
+**An advanced phishing tool with camera capture capabilities.**  
+Developed for **educational and ethical hacking** demonstrations only.
+
+---
 
 ## Features
-- Multiple phishing templates
-- Advanced camera capture
-- Multiple tunneling options (Ngrok/Cloudflared)
-- User-friendly interface
-- Regular updates
+
+- 🎯 **Multiple Phishing Templates** — Realistic and customizable
+- 📸 **Advanced Camera Capture** — Take real-time photos from the target’s device
+- 🌐 **Multiple Tunneling Options** — Supports **Ngrok** and **Cloudflared**
+- ⚙️ **User-Friendly Interface** — Simple CLI for quick setup
+- ♻️ **Regular Updates** — Stay ahead with new templates and improvements
+
+---
 
 ## Installation
 
-### Termux
+### For Termux (Android)
 ```bash
 pkg update -y
 pkg install -y git
-git clone https://github.com/rayhankhan4u/CamPhish-Ultimate.git
-cd CamPhish-Ultimate
+git clone https://github.com/rayhankhan4u/CamPhish-pro.git
+cd CamPhish-pro
 chmod +x setup.sh
 ./setup.sh
 ```
-##Linux
+### For Linux (Ubuntu/Debian)
 ```bash
 sudo apt-get update
 sudo apt-get install -y git
-git clone https://github.com/rayhankhan4u/CamPhish-Ultimate.git
-cd CamPhish-Ultimate
+git clone https://github.com/rayhankhan4u/CamPhish-pro.git
+cd CamPhish-pro
 chmod +x setup.sh
 ./setup.sh
 ```
 
-##Usage
-Run the script:
+---
+
+## Usage
+
+To launch the tool:
 ```bash
 ./camphish.sh
 ```
--Select template
--Choose tunneling option
--Share the generated link with target
--Wait for camera capture
 
-##Available Templates
+# Steps:
+
+1. Select your desired phishing template
+
+
+2. Choose tunneling method (Ngrok or Cloudflared)
+
+
+3. Share the generated link with the target
+
+
+4. Wait for camera access and data capture
+
+
+
+
+---
+
+# Available Templates
+
 YouTube Live Stream
-Online Meeting
-Festival Wishes
 
-##Disclaimer
+Online Meeting Room
 
-This tool is for educational purposes only. The developer is not responsible for any misuse or damage caused by this program.
-Author
+Festival Greeting Page
+
+
+More templates coming soon...
+
+
+---
+
+## Disclaimer
+
+> This tool is strictly for educational and ethical penetration testing purposes.
+The developer does not support or condone illegal activity.
+Misuse of this tool is solely the responsibility of the end-user.
+
+
+
+
+---
+
+## Author
+
 Rayhan Khan
 GitHub: @rayhankhan4u
 
-##License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+See the LICENSE file for more information.
